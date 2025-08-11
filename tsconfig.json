@@ -18,6 +18,7 @@
     "baseUrl": ".",
     "types": ["vitest/globals", "@serwist/next/typings"],
     "paths": {
+      "@/const/*": ["./packages/const/src/*"],
       "@/types/*": ["./packages/types/src/*", "./src/types/*"],
       "@/*": ["./src/*"],
       "~test-utils": ["./tests/utils.tsx"]
